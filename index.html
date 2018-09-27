@@ -6,9 +6,10 @@
 <script src="./bootstrap-4.1.3-dist/js/jquery-3.2.1.slim.min.js"></script>
 <script src="./bootstrap-4.1.3-dist/js/popper.min.js"></script>
 <script src="./bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
-	<nav class="navbar navbar-dark bg-dark sticky-top navbar-expand-lg">
+	<nav class="navbar navbar-dark bg-dark sticky-top navbar-expand-lg" style="padding-left:120px ">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler1" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -17,50 +18,69 @@
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
         <a class="nav-link" href="#">Questions <span class="sr-only">(current)</span></a>
-      </li>
-     <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Settings</a>
+      </li>   
+  </ul>
+    	<div class="nav-item dropdown" style="margin-right:10%; "><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style='color:rgba(255,255,255,0.8);'>
+    	<i class="fas fa-cog"></i></a>
     <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Option 1</a>
+      <a class="dropdown-item" href="#">opt1</a>
     </div>
-  </li>
-    </ul>
   </div>
+</div>
 </nav>
-	<div class="container">
-		<h2>Questions</h2>
-		<span>
-		<input type="text" placeholder="Search question">
-		<input type="button">
-		</span>
-		<input type="button" value='Ask question'>
+<div class="container">
+  <div class="row justify-content-lg-center">
+    <div class="col col-lg-7">
+     <h2>Questions</h2>
+    </div>
+    <div class="col-lg-3">
+     <div class="input-group">
+  <input type="text" class="form-control" placeholder="Search question" >
+  <div class="input-group-append">
+  <button type="button" class="btn btn-info"><i class="fas fa-search"></i></button>
+  </div>
+</div>
+</div>
+    <div class="col col-lg-2">
+<button type="button" class="btn btn-primary">Ask Question</button>
+    </div>
+  </div>
+  <div class="card" style="margin-bottom:40px;">
+  <div class="card-body">
+    <h2 class="card-title">How do I use Git and Github?</h2>
+   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique magnam sint harum eveniet quasi repellat id modi qui quia! Omnis laboriosam cum nobis debitis similique quam vero eius nemo harum?</p>
+    <a href="#" class="card-link">Abhishek Pokhriyal</a> asked on Sep 27,2018
+		<p><i class="fas fa-thumbs-up"></i> 14 <i class="fas fa-thumbs-down"></i> 2 <i class="fas fa-comments"></i> 14 answers</p>
+</div>
+</div>
+<div class="card" style="margin-bottom:40px;">
+  <div class="card-body">
+    <h2 class="card-title">What will I learn from CodeTrek?</h2>
+		  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique magnam sint harum eveniet quasi repellat id modi qui quia! Omnis laboriosam cum nobis debitis similique quam vero eius nemo harum?</p>
+		<a href="#" class="card-link">Vikas Rinvi</a> asked on Sep 26,2018
+		<p><i class="fas fa-thumbs-up"></i> 20 <i class="fas fa-thumbs-down"></i> 5 <i class="fas fa-comments"></i> 6 answers</p>
 	</div>
-	<div>
-		<h2>How do I use Git and Github?</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique magnam sint harum eveniet quasi repellat id modi qui quia! Omnis laboriosam cum nobis debitis similique quam vero eius nemo harum?</p>
-		<p>Abhishek Pokhriyal asked on Sep 27,2018</p>
-		<p>14 2 14 answers</p>
+</div>
+<div class="card" style="margin-bottom:40px;">
+  <div class="card-body">
+    <h2 class="card-title">Where can I apply for CodeTrek?</h2>
+		  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique magnam sint harum eveniet quasi repellat id modi qui quia! Omnis laboriosam cum nobis debitis similique quam vero eius nemo harum?</p>
+		<a href="#" class="card-link">Satendra Rawat</a> asked on Sep 25,2018
+		<p><i class="fas fa-thumbs-up"></i> 10 <i class="fas fa-thumbs-down"></i> 15 <i class="fas fa-comments"></i> 2 answers</p>
 	</div>
-	<div>
-		<h2>What will I learn from CodeTrek?</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique magnam sint harum eveniet quasi repellat id modi qui quia! Omnis laboriosam cum nobis debitis similique quam vero eius nemo harum?</p>
-		<p>Vikas Rinvi asked on Sep 26,2018</p>
-		<p>20 5 6 answers</p>
+</div>
+<div class="card" style="margin-bottom:40px;">
+  <div class="card-body">
+    <h2 class="card-title">When is CodeTrek going to start?</h2>
+		  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique magnam sint harum eveniet quasi repellat id modi qui quia! Omnis laboriosam cum nobis debitis similique quam vero eius nemo harum?</p>
+		<a href="#" class="card-link">Mohit Gussain</a> asked on Sep 25,2018</p>
+		<p><i class="fas fa-thumbs-up"></i>22 <i class="fas fa-thumbs-down"></i> 8 <i class="fas fa-comments"></i> 10 answers</p>
 	</div>
-	<div>
-		<h2>Where can I apply for CodeTrek?</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique magnam sint harum eveniet quasi repellat id modi qui quia! Omnis laboriosam cum nobis debitis similique quam vero eius nemo harum?</p>
-		<p>Satendra Rawat asked on Sep 25,2018</p>
-		<p>10 15 2 answers</p>
-	</div>
-	<div>
-		<h2>When is CodeTrek going to start?</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique magnam sint harum eveniet quasi repellat id modi qui quia! Omnis laboriosam cum nobis debitis similique quam vero eius nemo harum?</p>
-		<p>Mohit Gussain asked on Sep 25,2018</p>
-		<p>22 8 10 answers</p>
-	</div>
+</div>
+</div>
+
 	<footer>
-		Developed at CodeTrek Tehri 2018
+<div class="p-3 mb-2 bg-light text-primary text-center font-weight-bold"> <i class="fas fa-code"></i> Developed at CodeTrek Tehri 2018</div>
 	</footer>
 </body>
 </html>
